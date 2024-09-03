@@ -1,0 +1,272 @@
+{
+  "version": 11,
+  "randomSeed": "34a280c7e41d20cc5454866b41eaca4d",
+  "graph": {
+    "viewport": {
+      "xmin": -5.683605545526486,
+      "ymin": -7.745995465663341,
+      "xmax": 5.906023810512869,
+      "ymax": 5.368054703811708
+    },
+    "xAxisMinorSubdivisions": 1,
+    "yAxisMinorSubdivisions": 1,
+    "degreeMode": true,
+    "product": "geometry-calculator"
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "**dcg_geo_folder**",
+        "title": "geometry",
+        "secret": true
+      },
+      {
+        "type": "expression",
+        "id": "0.3541541731603479-0",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{1}=\\left(2,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.8770594378049583-1",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{2}=\\left(3,-2\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.08528193085381619-2",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{3}=\\left(4,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.8886579378387471-3",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{4}=\\operatorname{polygon}\\left(\\token{1},\\token{2},\\token{3}\\right)",
+        "color": "#2d70b3"
+      },
+      {
+        "type": "expression",
+        "id": "0.012880916660477748-4",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{5}=\\operatorname{angle}\\left(\\token{1},\\token{2},\\token{3}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.5375653997447005-5",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{6}=\\operatorname{angle}\\left(\\token{2},\\token{3},\\token{1}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.6438721632680438-6",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{7}=\\operatorname{angle}\\left(\\token{3},\\token{1},\\token{2}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.030407806163483375-7",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{8}=\\left(-2,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.3894823494652826-8",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{9}=\\left(-3,-2\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.14419212964304107-9",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{10}=\\left(-4,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.12982575892370396-10",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{11}=\\operatorname{polygon}\\left(\\token{8},\\token{9},\\token{10}\\right)",
+        "color": "#2d70b3"
+      },
+      {
+        "type": "expression",
+        "id": "0.11828948353239777-11",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{12}=\\operatorname{angle}\\left(\\token{8},\\token{9},\\token{10}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.6784662692144989-12",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{13}=\\operatorname{angle}\\left(\\token{9},\\token{10},\\token{8}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.3864178647364571-13",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{14}=\\operatorname{angle}\\left(\\token{10},\\token{8},\\token{9}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.15966742572816583-14",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{15}=\\left(2,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.7855293169484912-15",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{16}=\\left(3,2\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.2410511804963742-16",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{17}=\\left(4,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.8712703192834161-17",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{18}=\\operatorname{polygon}\\left(\\token{15},\\token{16},\\token{17}\\right)",
+        "color": "#2d70b3"
+      },
+      {
+        "type": "expression",
+        "id": "0.4418044777785157-18",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{19}=\\operatorname{angle}\\left(\\token{15},\\token{16},\\token{17}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.07665106540431377-19",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{20}=\\operatorname{angle}\\left(\\token{16},\\token{17},\\token{15}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.5208380109705559-20",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{21}=\\operatorname{angle}\\left(\\token{17},\\token{15},\\token{16}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.6352968459984794-21",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{22}=\\left(-2,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.18980146543200038-22",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{23}=\\left(-3,2\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.6079621359661278-23",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{24}=\\left(-4,0\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.34403550026647434-24",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{25}=\\operatorname{polygon}\\left(\\token{22},\\token{23},\\token{24}\\right)",
+        "color": "#2d70b3"
+      },
+      {
+        "type": "expression",
+        "id": "0.39454062594655737-25",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{26}=\\operatorname{angle}\\left(\\token{22},\\token{23},\\token{24}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.0711072902888672-26",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{27}=\\operatorname{angle}\\left(\\token{23},\\token{24},\\token{22}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.3855600457184254-27",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{28}=\\operatorname{angle}\\left(\\token{24},\\token{22},\\token{23}\\right)",
+        "color": "#000000"
+      },
+      {
+        "type": "expression",
+        "id": "0.7296938646123416-28",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{29}=\\left(0,1\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.28711981418362975-29",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{30}=\\left(1,0.5\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.39132459060096036-30",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{31}=\\left(1,-0.5\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.8699259698006978-31",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{32}=\\left(0,-1\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.6133440917381987-32",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{33}=\\left(-1,-0.5\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.3671476982020494-33",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{34}=\\left(-1,0.5\\right)",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "0.30593020406453064-34",
+        "folderId": "**dcg_geo_folder**",
+        "latex": "\\token{35}=\\operatorname{polygon}\\left(\\token{29},\\token{30},\\token{31},\\token{32},\\token{33},\\token{34}\\right)",
+        "color": "#2d70b3"
+      },
+      { "type": "expression", "id": "4", "color": "#388c46" }
+    ]
+  }
+}

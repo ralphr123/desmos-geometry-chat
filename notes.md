@@ -1,0 +1,13 @@
+## Geometry
+- Expressions list similar to the graphing calculator
+- Can have graph-like expressions and a cartesian plane, still haven't looked into the limitations comparing to the graphing calculator
+- Expressions list latex field can have `tokens`, which are geometry building blocks. Tokens can be mapped to a coordinate, making a point, or to an operation (segment, circle, angle, and polygon) anchored to other tokens
+    - **Point**: `\token{<id>}=\left(<x>,<y>\right)`
+    - **Operators**:
+        - **Segment**: `\token{<id>}=\operatorname{segment}\left(\token{<point1_id>},\token{<point2_id>}\right)`
+        - **Circle**: `\token{6}=\operatorname{circle}\left(\token{<center_id>},\token{<edge_id>}\right)`
+        - **Angle**: `\token{3}=\operatorname{angle}\left(\token{point1_id},\token{anchor_id},\token{point2_id}\right)`
+        - **Polygon**: `\token{8}=\operatorname{polygon}\left(\token{point1_id},...,\token{pointn_id}\right)`
+- Operations can be layered onto the same points. For example, I can have a polygon token with an angle token for each corner within.
+- I can identify which expressions are geometry specific by checking if the `folderId` is `**dcg_geo_folder**`
+- Order of expressions matters

@@ -1,0 +1,48 @@
+{
+  "version": 11,
+  "randomSeed": "e183a2e7f48c8df3616af79cfcf87d00",
+  "graph": {
+    "viewport": {
+      "xmin": -5.443900818744972,
+      "ymin": -7.363341329705167,
+      "xmax": 6.1457285372943815,
+      "ymax": 5.964732429740089
+    },
+    "xAxisMinorSubdivisions": 1,
+    "yAxisMinorSubdivisions": 1,
+    "degreeMode": true,
+    "product": "geometry-calculator"
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "**dcg_geo_folder**",
+        "title": "geometry",
+        "secret": true
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "folderId": "**dcg_geo_folder**",
+        "color": "#6042a6",
+        "latex": "\\token{7}=\\left(0,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "folderId": "**dcg_geo_folder**",
+        "color": "#388c46",
+        "latex": "\\token{6}=\\operatorname{circle}\\left(\\token{7},\\token{8}\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "folderId": "**dcg_geo_folder**",
+        "color": "#6042a6",
+        "latex": "\\token{8}=\\left(-2,-2\\right)"
+      },
+      { "type": "expression", "id": "1", "color": "#c74440" }
+    ]
+  }
+}

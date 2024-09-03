@@ -1,0 +1,27 @@
+{
+  "version": 11,
+  "randomSeed": "2aa02c57d2d7a27ecf0c55080187f03f",
+  "graph": {
+    "viewport": {
+      "xmin": -7.385081737104514,
+      "ymin": -7.915199548368968,
+      "xmax": 7.385081737104514,
+      "ymax": 7.915199548368968
+    },
+    "xAxisMinorSubdivisions": 1,
+    "yAxisMinorSubdivisions": 1,
+    "degreeMode": true,
+    "product": "geometry-calculator"
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "**dcg_geo_folder**",
+        "title": "geometry",
+        "secret": true
+      },
+      { "type": "expression", "id": "1", "color": "#c74440" }
+    ]
+  }
+}
